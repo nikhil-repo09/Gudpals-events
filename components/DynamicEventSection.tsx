@@ -16,8 +16,25 @@ export default function DynamicEventSection({
 
   return (
     <section className="w-full space-y-6">
-      {events.map((event) => {
-        const layout = event.eventLayout || 'A';
+      {events.map((event, index) => {
+        /*
+         * Automatically rotate layouts A → B → C → D.
+         *
+         * Since DynamicEventSection receives events already filtered
+         * for the active category, each category gets its own rotation.
+         *
+         * If n8n/GitHub provides eventLayout manually,
+         * that value takes priority.
+         */
+        const layouts: Array<'A' | 'B' | 'C' | 'D'> = [
+          'A',
+          'B',
+          'C',
+          'D',
+        ];
+
+        const layout =
+          event.eventLayout || layouts[index % layouts.length];
 
         if (layout === 'B') {
           return <LayoutB key={event.id} event={event} />;
@@ -46,9 +63,11 @@ function EventMeta({ event }: { event: ListingItem }) {
     <div className="flex flex-wrap gap-3 text-sm">
       <span>📅 {event.eventDate}</span>
       <span>⏰ {event.eventTime}</span>
+
       <span>
         📍 {event.area}, {event.location}
       </span>
+
       {event.organizer?.name && (
         <span>👤 {event.organizer.name}</span>
       )}
@@ -57,7 +76,9 @@ function EventMeta({ event }: { event: ListingItem }) {
 }
 
 function Countdown({ event }: { event: ListingItem }) {
-  if (!event.eventDate || !event.eventTime) return null;
+  if (!event.eventDate || !event.eventTime) {
+    return null;
+  }
 
   return (
     <EventCountdown
