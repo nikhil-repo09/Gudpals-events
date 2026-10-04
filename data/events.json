@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "id": "1791153990627-0",
+      "title": "The Social Pulse Networking Meetup",
+      "eventDate": "2026-10-04",
+      "eventTime": "11:00:00",
+      "area": "Blue Tokai Coffee Roasters Origins | Janpath",
+      "location": "New Delhi",
+      "organizer": {
+        "name": "Anchal",
+        "avatar": "",
+        "verified": false
+      },
+      "description": "Looking to expand your professional network and meet ambitious, like-minded people?",
+      "sourceUrl": "https://www.eventbrite.co.uk/e/the-social-pulse-networking-meetup-tickets-2002388987364",
+      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194462537%2F2840286743601%2F1%2Foriginal.20260927-171524?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=dd497d239bac9fc4585621e924c4bdb8",
+      "category": "meetups",
+      "isDynamicEvent": true,
+      "interestHook": "Curious about building your professional circle over a great cup of coffee? Join us on Oct 4!"
+    },
+    {
       "id": "test-event-001",
       "title": "Senior Citizens Health & Wellness Meetup",
       "description": "A friendly community meetup focused on health, wellness and social connection for senior citizens.",
@@ -11,7 +30,11 @@
       "reviewCount": 0,
       "price": "Free",
       "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d",
-      "tags": ["Health", "Wellness", "Seniors"],
+      "tags": [
+        "Health",
+        "Wellness",
+        "Seniors"
+      ],
       "isDynamicEvent": true,
       "eventDate": "2026-10-10",
       "eventTime": "09:00",
@@ -37,7 +60,11 @@
       "reviewCount": 0,
       "price": "Free",
       "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac",
-      "tags": ["Meetup", "Social", "Friendship"],
+      "tags": [
+        "Meetup",
+        "Social",
+        "Friendship"
+      ],
       "isDynamicEvent": true,
       "eventDate": "2026-10-11",
       "eventTime": "08:30",
@@ -63,7 +90,11 @@
       "reviewCount": 0,
       "price": "Free",
       "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a",
-      "tags": ["Music", "Culture", "Entertainment"],
+      "tags": [
+        "Music",
+        "Culture",
+        "Entertainment"
+      ],
       "isDynamicEvent": true,
       "eventDate": "2026-10-12",
       "eventTime": "18:00",
@@ -89,7 +120,11 @@
       "reviewCount": 0,
       "price": "Free",
       "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7",
-      "tags": ["Travel", "Retreat", "Nature"],
+      "tags": [
+        "Travel",
+        "Retreat",
+        "Nature"
+      ],
       "isDynamicEvent": true,
       "eventDate": "2026-10-14",
       "eventTime": "07:00",
@@ -115,7 +150,11 @@
       "reviewCount": 0,
       "price": "Free",
       "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
-      "tags": ["Workshop", "Pottery", "Creative"],
+      "tags": [
+        "Workshop",
+        "Pottery",
+        "Creative"
+      ],
       "isDynamicEvent": true,
       "eventDate": "2026-10-15",
       "eventTime": "11:00",
@@ -141,7 +180,11 @@
       "reviewCount": 0,
       "price": "Free",
       "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8",
-      "tags": ["Wellness", "Shopping", "Lifestyle"],
+      "tags": [
+        "Wellness",
+        "Shopping",
+        "Lifestyle"
+      ],
       "isDynamicEvent": true,
       "eventDate": "2026-10-16",
       "eventTime": "10:00",
