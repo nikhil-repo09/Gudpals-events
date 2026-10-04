@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 160" width="100%" height="100%">
+  <defs>
+    <!-- Arc Gradient: Green -> Yellow -> Orange -->
+    <linearGradient id="fullLogoArcGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8BBF38" />
+      <stop offset="45%" stop-color="#F9B233" />
+      <stop offset="100%" stop-color="#F2911B" />
+    </linearGradient>
+
+    <!-- G Letter & ud Gradient: Yellow -> Orange -->
+    <linearGradient id="fullLogoGGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9B233" />
+      <stop offset="100%" stop-color="#F2911B" />
+    </linearGradient>
+  </defs>
+
+  <!-- G ICON MARK -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Swirling Arc -->
+    <path 
+      d="M 32 108 A 56 56 0 1 1 120 46" 
+      fill="none" 
+      stroke="url(#fullLogoArcGrad)" 
+      stroke-width="11" 
+      stroke-linecap="round" 
+    />
+
+    <!-- Inner G Mark -->
+    <g fill="url(#fullLogoGGrad)">
+      <path d="M 100 52 C 93 41 81 34 68 34 C 48 34 32 50 32 70 C 32 90 48 106 68 106 C 85 106 99 94 102 77 L 66 77 L 66 63 L 118 63 L 118 70 C 118 97 96 120 68 120 C 40 120 18 98 18 70 C 18 42 40 20 68 20 C 87 20 103 30 111 46 Z" />
+    </g>
+  </g>
+
+  <!-- WORDMARK "udpals" -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="92" letter-spacing="-2">
+    <!-- ud in Yellow/Orange -->
+    <text x="145" y="112" fill="url(#fullLogoGGrad)">ud</text>
+    
+    <!-- p in Teal -->
+    <text x="270" y="112" fill="#00A79D">p</text>
+    
+    <!-- als in Bright Green -->
+    <text x="330" y="112" fill="#60B633">als</text>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  :root {
+    --background: 42 70% 95%; /* #FFF8E7 Cream */
+    --foreground: 0 0% 17%;   /* #2B2B2B Dark Text */
+  }
+
+  .dark {
+    --background: 105 32% 7%; /* #12180F Dark Olive */
+    --foreground: 42 70% 95%; /* #FFF8E7 Cream Text */
+  }
+
+  body {
+    @apply bg-[#FFF8E7] text-[#2B2B2B] dark:bg-[#12180F] dark:text-[#FFF8E7] antialiased font-sans transition-colors duration-300;
+  }
+
+  ::selection {
+    @apply bg-[#2E7D32] text-white;
+  }
+}
+
+/* Custom Utilities */
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .bg-gradient-forest-btn {
+    background: linear-gradient(135deg, #2E7D32 0%, #6B8E23 100%);
+  }
+
+  .bg-gradient-sunset-btn {
+    background: linear-gradient(135deg, #E6B325 0%, #F28C28 100%);
+  }
+
+  .earth-card-hover {
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .earth-card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px -5px rgba(46, 125, 50, 0.2);
+  }
+}
+
+
+
