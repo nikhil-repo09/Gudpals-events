@@ -1,3 +1,30 @@
 {
-  "events": []
+  "events": [
+    {
+      "id": "test-event-001",
+      "title": "Senior Citizens Health & Wellness Meetup",
+      "description": "A friendly community meetup focused on health, wellness and social connection for senior citizens.",
+      "category": "health",
+      "location": "Delhi NCR",
+      "area": "India Habitat Centre",
+      "rating": 0,
+      "reviewCount": 0,
+      "price": "Free",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d",
+      "tags": ["Health", "Wellness", "Seniors"],
+      "isDynamicEvent": true,
+      "eventDate": "2026-10-10",
+      "eventTime": "09:00",
+      "eventEndDate": "2026-10-10",
+      "eventEndTime": "11:00",
+      "sourceUrl": "https://www.eventbrite.com/",
+      "interestHook": "A morning of wellness, connection and meaningful conversations.",
+      "eventLayout": "A",
+      "organizer": {
+        "name": "Gudpals",
+        "avatar": "",
+        "verified": true
+      }
+    }
+  ]
 }

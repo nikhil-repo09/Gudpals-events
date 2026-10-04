@@ -1,7 +1,7 @@
 import { ListingItem } from '@/types';
 
 const EVENTS_URL =
-  'https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/data/events.json';
+  'https://raw.githubusercontent.com/nikhil-repo09/Gudpals-events/main/data/events.json';
 
 export async function getDynamicEvents(): Promise<ListingItem[]> {
   try {
