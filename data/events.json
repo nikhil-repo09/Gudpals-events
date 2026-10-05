@@ -1,6 +1,25 @@
 {
   "events": [
     {
+      "id": "1791180526439-0",
+      "title": "The Social Pulse Networking Meetup",
+      "eventDate": "2026-10-04",
+      "eventTime": "11:00:00",
+      "area": "Blue Tokai Coffee Roasters Origins | Janpath",
+      "location": "New Delhi",
+      "organizer": {
+        "name": "Anchal",
+        "avatar": "",
+        "verified": false
+      },
+      "description": "Looking to expand your professional network and meet ambitious, like-minded people?",
+      "sourceUrl": "https://www.eventbrite.co.uk/e/the-social-pulse-networking-meetup-tickets-2002388987364",
+      "image": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194462537%2F2840286743601%2F1%2Foriginal.20260927-171524?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=dd497d239bac9fc4585621e924c4bdb8",
+      "category": "meetups",
+      "isDynamicEvent": true,
+      "interestHook": "Want to meet ambitious professionals in Delhi? Join us at Blue Tokai on Oct 4!"
+    },
+    {
       "id": "1791153990627-0",
       "title": "The Social Pulse Networking Meetup",
       "eventDate": "2026-10-04",
