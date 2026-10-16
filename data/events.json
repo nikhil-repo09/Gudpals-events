@@ -1,36 +1,6 @@
 {
   "events": [
     {
-      "id": "test-event-004",
-      "title": "Weekend Hill Retreat for Seniors",
-      "description": "A comfortable group getaway offering scenic views, peaceful surroundings and enjoyable activities for senior citizens.",
-      "category": "travel",
-      "location": "Delhi NCR",
-      "area": "Mussoorie",
-      "rating": 0,
-      "reviewCount": 0,
-      "price": "Free",
-      "image": "https://images.unsplash.com/photo-1500534623283-312aade485b7",
-      "tags": [
-        "Travel",
-        "Retreat",
-        "Nature"
-      ],
-      "isDynamicEvent": true,
-      "eventDate": "2026-10-14",
-      "eventTime": "07:00",
-      "eventEndDate": "2026-10-14",
-      "eventEndTime": "19:00",
-      "sourceUrl": "https://www.eventbrite.com/",
-      "interestHook": "A refreshing escape from the city with new places and new memories.",
-      "eventLayout": "D",
-      "organizer": {
-        "name": "Gudpals",
-        "avatar": "",
-        "verified": true
-      }
-    },
-    {
       "id": "test-event-005",
       "title": "Creative Pottery Workshop for Seniors",
       "description": "A hands-on creative workshop where senior citizens can learn pottery, experiment with clay and enjoy a relaxing activity.",
