@@ -1,36 +1,6 @@
 {
   "events": [
     {
-      "id": "test-event-005",
-      "title": "Creative Pottery Workshop for Seniors",
-      "description": "A hands-on creative workshop where senior citizens can learn pottery, experiment with clay and enjoy a relaxing activity.",
-      "category": "activities",
-      "location": "Delhi NCR",
-      "area": "Saket",
-      "rating": 0,
-      "reviewCount": 0,
-      "price": "Free",
-      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261",
-      "tags": [
-        "Workshop",
-        "Pottery",
-        "Creative"
-      ],
-      "isDynamicEvent": true,
-      "eventDate": "2026-10-15",
-      "eventTime": "11:00",
-      "eventEndDate": "2026-10-15",
-      "eventEndTime": "13:00",
-      "sourceUrl": "https://www.eventbrite.com/",
-      "interestHook": "Get your hands messy and turn a simple idea into something memorable.",
-      "eventLayout": "A",
-      "organizer": {
-        "name": "Gudpals",
-        "avatar": "",
-        "verified": true
-      }
-    },
-    {
       "id": "test-event-006",
       "title": "Senior Wellness Essentials Fair",
       "description": "A community fair featuring useful lifestyle, wellness and reading products for senior citizens.",
