@@ -1,34 +1,3 @@
 {
-  "events": [
-    {
-      "id": "test-event-006",
-      "title": "Senior Wellness Essentials Fair",
-      "description": "A community fair featuring useful lifestyle, wellness and reading products for senior citizens.",
-      "category": "stores",
-      "location": "Delhi NCR",
-      "area": "Select Citywalk",
-      "rating": 0,
-      "reviewCount": 0,
-      "price": "Free",
-      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8",
-      "tags": [
-        "Wellness",
-        "Shopping",
-        "Lifestyle"
-      ],
-      "isDynamicEvent": true,
-      "eventDate": "2026-10-16",
-      "eventTime": "10:00",
-      "eventEndDate": "2026-10-16",
-      "eventEndTime": "16:00",
-      "sourceUrl": "https://www.eventbrite.com/",
-      "interestHook": "Discover useful finds and wellness essentials chosen with seniors in mind.",
-      "eventLayout": "B",
-      "organizer": {
-        "name": "Gudpals",
-        "avatar": "",
-        "verified": true
-      }
-    }
-  ]
+  "events": []
 }
